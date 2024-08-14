@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background: #597445;
+    background: #095d7e;
     color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@
     /* top: -1; */
 }
 .nav-links-box{
-    color: #E7F0DC;
+    color: #e2fcd6;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -32,15 +32,15 @@
 }
 .nav-link{
     text-decoration: none;
-    color: #E7F0DC;
+    color: #e2fcd6;
 }
 
 /*HOMEPAGE CSS HERE*/
 
 .homepage{
-    background: #729762;
+    background: #14967f;
     height: 90vh;
-    color :#E7F0DC;
+    color :#e2fcd6;
     /* padding: 5vw; */
 }
 
@@ -62,26 +62,26 @@
     height: 7vh;
     width: 40vw;
     background-color: #fcf8f86c;
-    color: #323c2a;
+    color: #e2fcd6;
     font-size: 1.5rem;
     border-radius: 20px;
     padding: 5px;
-    border: solid #E7F0DC;
+    border: solid #e2fcd6;
 }
 .search-bar:focus{
     outline: none;
-    background-color: #fcf8f829;
+    background-color: #e2fcd6;
 }
 .search-bar:hover{
-    background-color: #fcf8f829;
+    background-color: #095d7e;
 
 }
 .submit{
     height: 7vh;
     width: 7vw;
     margin: 10px;
-    background: #597445;
-    color: #E7F0DC;
+    background: #095d7e;
+    color: #e2fcd6;
     border-radius: 20px;
     padding: 5px;
     border: solid pink;
@@ -94,7 +94,7 @@
 
 /*FOODS PAGE CSS HERE*/
 .foodspage{
-    background: #729762;
+    background: #14967f;
     height: 90vh;
     color :white;
 }
@@ -103,7 +103,7 @@
 
 /* ABOUT PAGE CSS HERE */
 .aboutpage{
-    background: #729762;
+    background: #14967f;
     height: 90vh;
     color :white;
 }
