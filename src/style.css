@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background: rgb(157, 11, 113);
+    background: #597445;
     color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -14,13 +14,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: "Kanit", sans-serif;
-    font-size: larger;
+    font-size: 1.3rem;
+    
     border-bottom: solid white 3px;
     /* position:sticky; */
     /* top: -1; */
 }
 .nav-links-box{
-    color: whitesmoke;
+    color: #E7F0DC;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -31,40 +32,90 @@
 }
 .nav-link{
     text-decoration: none;
-    color: white;
+    color: #E7F0DC;
 }
 
 /*HOMEPAGE CSS HERE*/
 
 .homepage{
-    background: #ef3be6;
+    background: #729762;
     height: 90vh;
-    color :white;
+    color :#E7F0DC;
     /* padding: 5vw; */
 }
 
 .foryou{
     width: 60vw;
-    /* margin: auto;     */
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-weight: 700;
     font-size: 10vh;
     padding: 5vw;
-    /* border-bottom: solid white 3px; */
 }
 
 .search{
     margin-top: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .search-bar{
     height: 7vh;
     width: 40vw;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    border-radius: 10px;
-    border: solid pink;
+    background-color: #fcf8f86c;
+    color: #323c2a;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding: 5px;
+    border: solid #E7F0DC;
 }
+.search-bar:focus{
+    outline: none;
+    background-color: #fcf8f829;
+}
+.search-bar:hover{
+    background-color: #fcf8f829;
+
+}
+.submit{
+    height: 7vh;
+    width: 7vw;
+    margin: 10px;
+    background: #597445;
+    color: #E7F0DC;
+    border-radius: 20px;
+    padding: 5px;
+    border: solid pink;
+    font-size: larger;
+    font-weight: 600;
+}
+.submit:hover{
+    cursor:pointer;
+}
+
+/*FOODS PAGE CSS HERE*/
+.foodspage{
+    background: #729762;
+    height: 90vh;
+    color :white;
+    /* padding: 5vw; */
+}
+
+
+
+/* ABOUT PAGE CSS HERE */
+.aboutpage{
+    background: #729762;
+    height: 90vh;
+    color :white;
+}
+
+
+
+
+/* CONTACT PAGE CSS HERE */
+.contactpage{
+    background: #658147;
+    height: 90vh;
+    color :white;
+}
+
