@@ -17,8 +17,6 @@
     font-size: 1.3rem;
     
     border-bottom: solid white 3px;
-    /* position:sticky; */
-    /* top: -1; */
 }
 .nav-links-box{
     color: #e2fcd6;
@@ -38,9 +36,9 @@
 /*HOMEPAGE CSS HERE*/
 
 .homepage{
-    background: #14967f;
+    background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
-    color :#e2fcd6;
+    color :#095d7e;
     /* padding: 5vw; */
 }
 
@@ -62,26 +60,22 @@
     height: 7vh;
     width: 40vw;
     background-color: #fcf8f86c;
-    color: #e2fcd6;
+    color: #095d7e;
     font-size: 1.5rem;
     border-radius: 20px;
     padding: 5px;
-    border: solid #e2fcd6;
+    border: solid #095d7e;
 }
 .search-bar:focus{
     outline: none;
-    background-color: #e2fcd6;
 }
-.search-bar:hover{
-    background-color: #095d7e;
 
-}
 .submit{
     height: 7vh;
     width: 7vw;
     margin: 10px;
     background: #095d7e;
-    color: #e2fcd6;
+    color: #ccecee;
     border-radius: 20px;
     padding: 5px;
     border: solid pink;
@@ -94,18 +88,18 @@
 
 /*FOODS PAGE CSS HERE*/
 .foodspage{
-    background: #14967f;
+    background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
-    color :white;
+    color : #095d7e;
 }
 
 
 
 /* ABOUT PAGE CSS HERE */
 .aboutpage{
-    background: #14967f;
+    background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
-    color :white;
+    color :#095d7e;
 }
 
 
@@ -113,8 +107,8 @@
 
 /* CONTACT PAGE CSS HERE */
 .contactpage{
-    background: #658147;
+    background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
-    color :white;
+    color : #095d7e;
 }
 
