@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .navbar{
     background: rgb(157, 11, 113);
     color: whitesmoke;
@@ -12,8 +13,11 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: larger;
+    border-bottom: solid white 3px;
+    /* position:sticky; */
+    /* top: -1; */
 }
 .nav-links-box{
     color: whitesmoke;
@@ -28,4 +32,39 @@
 .nav-link{
     text-decoration: none;
     color: white;
+}
+
+/*HOMEPAGE CSS HERE*/
+
+.homepage{
+    background: #ef3be6;
+    height: 90vh;
+    color :white;
+    /* padding: 5vw; */
+}
+
+.foryou{
+    width: 60vw;
+    /* margin: auto;     */
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 700;
+    font-size: 10vh;
+    padding: 5vw;
+    /* border-bottom: solid white 3px; */
+}
+
+.search{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    height: 7vh;
+    width: 40vw;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    border-radius: 10px;
+    border: solid pink;
 }
