@@ -87,10 +87,38 @@
 }
 
 /*FOODS PAGE CSS HERE*/
-.foodspage{
+.chatpage{
     background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
     color : #095d7e;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.chatbot-text{
+    font-size: 3rem;
+}
+.resp-box{
+    margin-top: 10px;
+    border: solid #095d7e 2px;
+    overflow-y: scroll;
+}
+.text-area{
+    background-color: #ccecee;
+    color: #095d7e;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: solid #095d7e 2px;
+    padding: 5px;
+}
+.ask-btn{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 10vw;
+    background-color: #095d7e;
+    color: #ccecee;
 }
 
 

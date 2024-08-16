@@ -10,7 +10,7 @@ export default function Navbar(){
             <div id="nav-logo">Healthcare</div>
             <ul className="nav-links-box">
             <li><Link to="/" className="nav-link">Home</Link></li>
-            <li><Link to="/foods" className="nav-link">Foods</Link></li>
+            <li><Link to="/chat" className="nav-link">ChatBot</Link></li>
             <li><Link to="/about" className="nav-link">About Us</Link></li>
             <li><Link to="/contact" className="nav-link">Contact Us</Link></li>
             </ul>
