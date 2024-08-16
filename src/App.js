@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //importing components
 import Navbar from "./Navbar";
 import { Homepage } from "./Homepage";
 import Chatbot from "./Chat";
-import About from "./About";
+import Foods from "./Foodspage";
 import Contact from "./Contact";
 
 
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/chat" element={<Chatbot />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/foods" element={<Foods />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

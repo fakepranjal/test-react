@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background: #095d7e;
+    background: #14967f;
     color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -38,7 +38,7 @@
 .homepage{
     background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
-    color :#095d7e;
+    color :#14967f;
     /* padding: 5vw; */
 }
 
@@ -64,7 +64,7 @@
     font-size: 1.5rem;
     border-radius: 20px;
     padding: 5px;
-    border: solid #095d7e;
+    border: solid #14967f;
 }
 .search-bar:focus{
     outline: none;
@@ -74,17 +74,30 @@
     height: 7vh;
     width: 7vw;
     margin: 10px;
-    background: #095d7e;
+    background: #14967f;
     color: #ccecee;
     border-radius: 20px;
     padding: 5px;
-    border: solid pink;
+    border: solid #ccecee;
     font-size: larger;
     font-weight: 600;
 }
 .submit:hover{
     cursor:pointer;
 }
+
+.generic-name{
+    height: 7vh;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: solid #14967f;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #727070e4;
+    overflow-x: visible;
+}
+
 
 /*FOODS PAGE CSS HERE*/
 .chatpage{
@@ -124,7 +137,7 @@
 
 
 /* ABOUT PAGE CSS HERE */
-.aboutpage{
+.foodspage{
     background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
     color :#095d7e;
