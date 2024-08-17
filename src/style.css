@@ -39,6 +39,8 @@
     background: linear-gradient(to left,#ccecee, #f1f9ff);
     height: 90vh;
     color :#14967f;
+    /* background: url("bg.jpg");
+    background-size: cover; */
     /* padding: 5vw; */
 }
 
@@ -85,6 +87,11 @@
 .submit:hover{
     cursor:pointer;
 }
+.submit:focus{
+    .generic-name{
+        visibility: visible;
+    }
+}
 
 .generic-name{
     height: 7vh;
@@ -95,7 +102,8 @@
     border-radius: 20px;
     margin-top: 10px;
     color: #727070e4;
-    overflow-x: visible;
+    /* overflow-x: visible; */
+    /* visibility:hidden; */
 }
 
 
