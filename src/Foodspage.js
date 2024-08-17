@@ -7,21 +7,33 @@ export default function Foods(){
   const [nutrientArray, setnutrientArray] = useState([]);
   
   async function getFoodInfo(){
+    
     const response = await axios({
       method: 'GET',
       url: `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=LqMKY6O0jpS3FKq1wgFYgHGHtHc7OPiNTFAgYwbu&query=${foodQuery}`,
     });
     const ResultObj = response.data['foods'][0]['foodNutrients'];
-    setnutrientArray(ResultObj.map(obj => [obj.nutrientName, obj.nutrientNumber]));
-    console.log(nutrientArray);
+    setnutrientArray(ResultObj.map(obj => [obj.nutrientName, obj.nutrientNumber,obj.unitName]));
+    console.log(ResultObj);
   }
 
     return(
 
       <div className="foodspage">
-        <input value={foodQuery} onChange={(e)=>setfoodQuery(e.target.value)} type="text" />
-        <button onClick={getFoodInfo}>Here</button>
-        <p>{nutrientArray}</p>
+        <div className="foodinfo">
+          <input className="foodname-box" placeholder="Enter food item" value={foodQuery} onChange={(e)=>setfoodQuery(e.target.value)} type="text" />
+          <button className="find-btn" onClick={getFoodInfo}>Find</button>
+          
+          <div className="nutrient-list">
+            {nutrientArray.map((innerArray, outerIndex) => (
+            <div key={outerIndex}>
+              {innerArray.map((element, innerIndex) => (
+              <p key={innerIndex}>{element}</p>
+              ))}
+            </div>
+      ))}
+    </div>
+        </div>
       </div>
     );
   }

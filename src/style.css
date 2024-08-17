@@ -5,8 +5,8 @@
 }
 
 .navbar{
-    background: #14967f;
-    color: whitesmoke;
+    background: url("./img/landing_bg.jpg");
+    color: #095d7e;
     display: flex;
     flex-direction: row;
     height: 10vh;
@@ -15,11 +15,10 @@
     justify-content: space-around;
     font-family: "Kanit", sans-serif;
     font-size: 1.3rem;
-    
-    border-bottom: solid white 3px;
+    border-bottom: solid rgb(180, 180, 180) 3px;
 }
 .nav-links-box{
-    color: #e2fcd6;
+    color: #095d7e;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -30,18 +29,16 @@
 }
 .nav-link{
     text-decoration: none;
-    color: #e2fcd6;
+    color: #095d7e;
 }
 
 /*HOMEPAGE CSS HERE*/
 
 .homepage{
-    background: linear-gradient(to left,#ccecee, #f1f9ff);
+    background: url("./img/landing_bg.jpg");
+    background-size:cover;
     height: 90vh;
-    color :#14967f;
-    /* background: url("bg.jpg");
-    background-size: cover; */
-    /* padding: 5vw; */
+    color :#095d7e;
 }
 
 .foryou{
@@ -60,13 +57,13 @@
 }
 .search-bar{
     height: 7vh;
-    width: 40vw;
-    background-color: #fcf8f86c;
+    width: 30vw;
+    background-color: #fcf8f83a;
     color: #095d7e;
     font-size: 1.5rem;
     border-radius: 20px;
     padding: 5px;
-    border: solid #14967f;
+    border: solid #095d7e;
 }
 .search-bar:focus{
     outline: none;
@@ -80,7 +77,7 @@
     color: #ccecee;
     border-radius: 20px;
     padding: 5px;
-    border: solid #ccecee;
+    border: solid #095d7e;
     font-size: larger;
     font-weight: 600;
 }
@@ -98,18 +95,17 @@
     width: fit-content;
     font-size: 1.5rem;
     padding: 5px;
-    border: solid #14967f;
+    border: solid #095d7e;
     border-radius: 20px;
     margin-top: 10px;
     color: #727070e4;
-    /* overflow-x: visible; */
-    /* visibility:hidden; */
 }
 
 
 /*FOODS PAGE CSS HERE*/
 .chatpage{
-    background: linear-gradient(to left,#ccecee, #f1f9ff);
+    background: url("./img/chatpg.jpg");
+    background-size: cover;
     height: 90vh;
     color : #095d7e;
     display: flex;
@@ -122,9 +118,13 @@
     font-size: 3rem;
 }
 .resp-box{
+    width: 60vw;
+    height: 50vh;
     margin-top: 10px;
     border: solid #095d7e 2px;
     overflow-y: scroll;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    background-color: rgba(128, 128, 128, 0.486);
 }
 .text-area{
     background-color: #ccecee;
@@ -140,18 +140,52 @@
     width: 10vw;
     background-color: #095d7e;
     color: #ccecee;
+    border-radius: 15px;
 }
 
 
 
 /* ABOUT PAGE CSS HERE */
 .foodspage{
-    background: linear-gradient(to left,#ccecee, #f1f9ff);
+    background: url("./img/foodbg.jpg");
+    background-size: cover;
     height: 90vh;
     color :#095d7e;
 }
+.foodinfo{
+    /* position: absolute; */
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin: auto;
+    align-items: center;
+    padding: 10vh;
+}
+.foodname-box{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.5rem;
+}
 
+.find-btn{
+    margin-top: 10px;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+.nutrient-list{
+    overflow-y: scroll;
+    height: 20vh;
+    scrollbar-track-color: #095d7e;
+    font-size: 1.5rem;
+    
+}
 
 
 /* CONTACT PAGE CSS HERE */

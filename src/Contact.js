@@ -2,7 +2,7 @@
 export default function Contact(){
     return(
       <div className="contactpage">
-      <h1>Contact Page</h1>
+      <h1>Ruk ja bey saans toh lene de</h1>
       </div>
     );
   }
