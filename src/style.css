@@ -84,11 +84,6 @@
 .submit:hover{
     cursor:pointer;
 }
-.submit:focus{
-    .generic-name{
-        visibility: visible;
-    }
-}
 
 .generic-name{
     height: 7vh;
@@ -98,7 +93,8 @@
     border: solid #095d7e;
     border-radius: 20px;
     margin-top: 10px;
-    color: #727070e4;
+    color: #095d7e;
+    /* display: none; */
 }
 
 

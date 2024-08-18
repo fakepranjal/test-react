@@ -13,8 +13,7 @@ export function Homepage(){
       url: 'https://drug-info-and-price-history.p.rapidapi.com/1/genericname',
       params: {drug: DrugName},
       headers: {'x-rapidapi-key': '04ca33ade7msh4cc2ebfe9f01526p1eaaa8jsn7976f93e70e3',
-                'x-rapidapi-host': 'drug-info-and-price-history.p.rapidapi.com'
-    }
+                'x-rapidapi-host': 'drug-info-and-price-history.p.rapidapi.com'}
     });
 
     setGenName((response.data['generic_name']));
@@ -28,9 +27,9 @@ export function Homepage(){
         </div>
 
         <div className="search">
-        <input value={DrugName} onChange={(e)=>setDrugName(e.target.value)} className="search-bar" type="text" placeholder="Search your medicine here"  />
-        <div className="generic-name"><pre>Generic name: {GenName}</pre></div>
-        <input onClick={genericName} type="submit" className="submit"/>
+        <input value={DrugName}  onChange={(e)=>setDrugName(e.target.value)} className="search-bar" type="text" placeholder="Search your medicine here"  />
+        <div className="generic-name"><pre>Generic name{GenName}</pre></div>
+        <input onClick={()=> { genericName(); } } type="submit" className="submit"/>
 
         </div>
       </div>
