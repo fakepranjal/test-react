@@ -28,7 +28,7 @@ export function Homepage(){
 
         <div className="search">
         <input value={DrugName}  onChange={(e)=>setDrugName(e.target.value)} className="search-bar" type="text" placeholder="Search your medicine here"  />
-        <div className="generic-name"><pre>Generic name{GenName}</pre></div>
+        <div className="generic-name"><pre>{GenName}</pre></div>
         <input onClick={()=> { genericName(); } } type="submit" className="submit"/>
 
         </div>

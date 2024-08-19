@@ -20,6 +20,7 @@ export default function Foods(){
     return(
 
       <div className="foodspage">
+        <h1 className="food-text">Enter food and get nutritional content</h1>
         <div className="foodinfo">
           <input className="foodname-box" placeholder="Enter food item" value={foodQuery} onChange={(e)=>setfoodQuery(e.target.value)} type="text" />
           <button className="find-btn" onClick={getFoodInfo}>Find</button>
