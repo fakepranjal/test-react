@@ -42,7 +42,7 @@
 .homepage{
     background: url("./img/landing_bg.jpg");
     background-size:cover;
-    height: 90vh;
+    height: 89.5vh;
     color :#095d7e;
 }
 
@@ -76,7 +76,7 @@
 
 .submit{
     height: 7vh;
-    width: 7vw;
+    width: 9vw; 
     margin: 10px;
     background: #14967f;
     color: #ccecee;
@@ -99,7 +99,6 @@
     border-radius: 20px;
     margin-top: 10px;
     color: #095d7e;
-    /* display: none; */
 }
 
 
@@ -107,7 +106,7 @@
 .chatpage{
     background: linear-gradient(to right, rgb(209, 197, 197), rgb(187, 180, 180));
     background-size: cover;
-    height: 90vh;
+    height: 89.5vh;
     color : #095d7e;
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +152,7 @@
 .foodspage{
     background: url("./img/foodbg.jpg");
     background-size: cover;
-    height: 90vh;
+    height: 89.5vh;
     color :#095d7e;
 }
 .food-text{
@@ -168,6 +167,7 @@
     margin: auto;
     align-items: center;
     padding: 10vh;
+
 }
 .foodname-box{
     width: 20vw;
@@ -183,14 +183,19 @@
     height: 5vh;
     width: 5vw;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .nutrient-list{
     overflow-y: scroll;
     height: 20vh;
-    scrollbar-track-color: #095d7e;
-    font-size: 1.5rem;
-    
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.3rem;
+    border: solid gray 2px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 
