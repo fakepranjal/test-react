@@ -15,7 +15,7 @@
     justify-content: space-around;
     font-family: "Kanit", sans-serif;
     font-size: 1.3rem;
-    border-bottom: solid rgb(180, 180, 180) 3px;
+    border-bottom: solid gray 3px;
 }
 .nav-links-box{
     color: #095d7e;
@@ -105,7 +105,7 @@
 
 /*FOODS PAGE CSS HERE*/
 .chatpage{
-    background: url("./img/chatpg.jpg");
+    background: linear-gradient(to right, rgb(209, 197, 197), rgb(187, 180, 180));
     background-size: cover;
     height: 90vh;
     color : #095d7e;
@@ -125,7 +125,10 @@
     border: solid #095d7e 2px;
     overflow-y: scroll;
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    background-color: rgba(128, 128, 128, 0.486);
+    background-color: rgba(128, 128, 128, 0.847);
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+
 }
 .text-area{
     background-color: #ccecee;
@@ -152,6 +155,10 @@
     background-size: cover;
     height: 90vh;
     color :#095d7e;
+}
+.food-text{
+    font-family: "Kanit", sans-serif;
+    padding: 10px;
 }
 .foodinfo{
     display: flex;

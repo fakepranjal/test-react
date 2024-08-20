@@ -14,7 +14,6 @@ export default function Foods(){
     });
     const ResultObj = response.data['foods'][0]['foodNutrients'];
     setnutrientArray(ResultObj.map(obj => [obj.nutrientName, obj.nutrientNumber,obj.unitName]));
-    console.log(ResultObj);
   }
 
     return(
